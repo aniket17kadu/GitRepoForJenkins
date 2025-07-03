@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions (
 		
-		features = {"src\\test\\resources\\appfeature\\login.feature"},
+		features = {"src\\test\\resources\\appfeature\\loginBackground.feature"},
 		
 		glue = {"steps"},
 		

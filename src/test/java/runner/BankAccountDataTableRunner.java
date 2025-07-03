@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		
-		features = {"src/test/resources/appfeature/BankAccount.feature"},
+		features = {"src/test/resources/appfeature/BankAccountDataTable.feature"},
 		glue = {"steps"}
 		//plugin = {"pretty"} 
 		

@@ -1,0 +1,16 @@
+# Ignore compiled class files
+/target/
+
+# Ignore test reports
+/test-output/
+
+# Ignore IDE-specific files (Eclipse)
+.classpath
+.project
+.settings/
+
+# Ignore cucumber temp files
+*.tmp
+
+# Mac system files (if you ever use a Mac)
+/.DS_Store
