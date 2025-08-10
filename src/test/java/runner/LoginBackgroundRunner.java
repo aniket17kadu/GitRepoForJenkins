@@ -9,7 +9,12 @@ import io.cucumber.testng.CucumberOptions;
 		
 		glue = {"steps"},
 		
-		plugin = {"pretty"}
+		plugin = {"pretty",
+				"json:target/MyReports/report.json",
+				"junit:target/MyReports/report.xml"},
+		monochrome = false,
+		dryRun = true
+		
 		)
 
 public class LoginBackgroundRunner extends AbstractTestNGCucumberTests{
