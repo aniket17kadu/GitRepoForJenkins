@@ -11,6 +11,8 @@ import io.cucumber.testng.CucumberOptions;
 		plugin = {"pretty",
 			 "html:target/MyReports/Amazon.html"},
 		
+	//	tags= "@aniket",
+		
 		publish = true
 		)
 
